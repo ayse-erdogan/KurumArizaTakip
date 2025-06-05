@@ -1,0 +1,17 @@
+# React (frontend) 
+node_modules/ 
+build/ 
+pnpm-lock.yaml 
+ 
+# Python / Django 
+*.pyc 
+__pycache__/ 
+env/ 
+venv/ 
+db.sqlite3 
+ 
+# Ortak 
+*.log 
+*.env 
+.idea/ 
+.vscode/ 
