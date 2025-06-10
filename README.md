@@ -1,54 +1,41 @@
-# Kurum Arza Takip Sistemi 
- 
-Bu proje, kurumsal sistemlerde meydana gelen arza bildirimlerinin hzl, gvenli ve snflandrlmŸ Ÿekilde y”netilebilmesini sa§layan bir web uygulamasdr. Django backend ile API altyaps sa§lanmŸ, React frontend ile kullanc dostu arayz geliŸtirilmiŸtir. NLP destekli otomatik snflandrma ve rol bazl yetkilendirme sistemleri entegre edilmiŸtir. 
- 
-## ?? Kullanlan Teknolojiler 
+# ğŸš€ Kurum ArÄ±za Takip Sistemi
 
-tailwindcss v3.3.0
+Bu proje, kurumsal sistemlerde meydana gelen **arÄ±za bildirimlerinin** hÄ±zlÄ±, gÃ¼venli ve sÄ±nÄ±flandÄ±rÄ±lmÄ±ÅŸ ÅŸekilde yÃ¶netilmesini saÄŸlayan bir **web uygulamasÄ±dÄ±r**.  
+Sistem sayesinde arÄ±zalar etkin ÅŸekilde takip edilir ve yÃ¶netim sÃ¼reÃ§leri optimize edilir.
 
-Invalid command: CSS
+## ğŸ¯ Proje AmacÄ±
 
-Usage:
-   tailwindcss <command> [options]
+Bu sistem, kurum iÃ§indeki teknik arÄ±za sÃ¼reÃ§lerini daha **hÄ±zlÄ±**, **ÅŸeffaf** ve **veriye dayalÄ±** ÅŸekilde yÃ¶netebilmek amacÄ±yla geliÅŸtirilmiÅŸtir.  
+KullanÄ±cÄ±, teknisyen ve yÃ¶netici rollerine gÃ¶re Ã¶zelleÅŸtirilmiÅŸ paneller sunarak **farklÄ± kullanÄ±cÄ± deneyimleri** saÄŸlamaktadÄ±r.
 
-Commands:
-   init [options]
+## ğŸ› ï¸ KullanÄ±lan Teknolojiler
 
-Options:
-   -h, --help               Display usage information
+- **Django** (Python Web Framework)
+- **Django REST Framework**
+- **React.js** (Frontend framework)
+- **TailwindCSS v3.3.0** (Modern CSS framework)
+- **PostgreSQL** (Ä°liÅŸkisel veritabanÄ± yÃ¶netim sistemi)
+- **JWT** (JSON Web Token - Kimlik doÄŸrulama)
+- **NLP** (DoÄŸal Dil Ä°ÅŸleme) destekli otomatik sÄ±nÄ±flandÄ±rma
+- **Rol bazlÄ± yetkilendirme sistemi**
+- **MQTT** (MesajlaÅŸma protokolÃ¼ - IoT entegrasyonu) *(KullanÄ±ldÄ±ysa, istersen Ã§Ä±karabiliriz)*
 
-- PostgreSQL 
-- JWT Authentication 
-- MQTT protokol ve sens”r entegrasyonu 
-- NLP (Do§al Dil ˜Ÿleme) ile otomatik ”ncelik ve kategori belirleme 
- 
-## ?? Kurulum 
-```bash 
-# Backend i‡in 
-cd backend 
-python -m venv env 
-source env/Scripts/activate      # Windows i‡in 
-pip install -r requirements.txt 
-python manage.py migrate 
-python manage.py runserver 
-``` 
- 
-```bash 
-# Frontend i‡in 
-cd frontend 
-npm install 
-npm run dev 
-``` 
- 
- 
-## ??? Ekran G”rnts 
-AŸa§ya sistemin ekran g”rntlerini ekleyebilirsiniz. 
-``` 
-![Arayz](./screenshots/dashboard.png) 
-``` 
- 
-## ?? GeliŸtirici Notu 
-Bu proje, 2025 yl bitirme projesi kapsamnda geliŸtirilmiŸtir. Django ve React altyaps zerinde detayl bi‡imde ‡alŸma frsat sunmuŸ, do§al dil iŸleme (NLP) ve JWT gvenlik sistemleriyle ileri seviye yazlm teknikleri uygulanmŸtr. 
- 
-## ?? GitHub Sayfas 
-[Proje Linki](https://github.com/ayse-erdogan/KurumArizaTakip) 
+## âš™ï¸ Ã–zellikler
+
+- HÄ±zlÄ± ve gÃ¼venli arÄ±za bildirim takibi
+- NLP destekli otomatik kategori ve Ã¶ncelik belirleme
+- KullanÄ±cÄ±, teknisyen ve yÃ¶netici iÃ§in Ã¶zelleÅŸtirilmiÅŸ arayÃ¼zler
+- JWT tabanlÄ± kimlik doÄŸrulama ve yetkilendirme
+- RESTful API mimarisi ile geliÅŸtirilen backend
+- GerÃ§ek zamanlÄ± veri iletimi (MQTT entegrasyonu ile)
+- Modern ve kullanÄ±cÄ± dostu frontend
+
+## ğŸš€ Kurulum ve KullanÄ±m
+
+### Backend (Django)
+```bash
+git clone https://github.com/ayse-erdogan/KurumArizaTakip.git
+cd backend
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
